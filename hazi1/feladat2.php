@@ -22,4 +22,4 @@
     }
 
     echo szamalogep(3, 4, '*');
-?>
+?> 
