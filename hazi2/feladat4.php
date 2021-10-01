@@ -2,7 +2,7 @@
     //tomb referencia szerint átadva, hogy az eredeti érték változzon
     function atalakit(array &$tomb, string $tipus) : void
     {
-        //használandó függvény nevének eldöntése, kis- nagybetű megkűlömböztetése nélkül
+        //használandó függvény nevének eldöntése, kis- nagybetű megkűlönböztetése nélkül
         $fnctn = strcasecmp($tipus, 'kisbetus') == 0 ? 'strtolower' : (strcasecmp($tipus , 'nagybetus') == 0 ? 'strtoupper' : -1);
 
         //ha tipus -1 akkor hibás adat
